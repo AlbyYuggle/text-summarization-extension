@@ -1,0 +1,61 @@
+.container {
+    width: 280px;
+    color: #0095ff;
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.summary {
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+  
+.title {
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px;
+    flex: 1;
+    justify-self: center;
+    align-self: center;
+}
+
+/* CSS */
+.submit {
+    background-color: #0095ff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: auto;
+    flex: 1;
+    outline: none;
+    padding: 8px .8em;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    justify-self: center;
+    align-self: center;
+}
+
+.submit:hover,
+.button-7:focus {
+    background-color: #07c;
+}
+
+.submit:active {
+    background-color: #0064bd;
+    box-shadow: none;
+}
